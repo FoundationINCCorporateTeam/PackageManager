@@ -1,7 +1,7 @@
 {
   "name": "flo-package-registry-backend",
   "version": "1.0.0",
-  "description": "Backend API for Flo Package Registry",
+  "description": "Backend API for Flo Package Registry - A modern package registry with public catalog and admin panel",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -14,10 +14,17 @@
   },
   "keywords": [
     "package-registry",
-    "flo"
+    "flo",
+    "package-manager",
+    "npm",
+    "repository"
   ],
-  "author": "",
+  "author": "Foundation INC Corporate Team",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FoundationINCCorporateTeam/PackageManager.git"
+  },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.932.0",
     "@aws-sdk/s3-request-presigner": "^3.932.0",

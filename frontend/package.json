@@ -1,7 +1,14 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "flo-package-registry-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Flo Package Registry - Modern React-based package catalog",
   "private": true,
+  "author": "Foundation INC Corporate Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FoundationINCCorporateTeam/PackageManager.git"
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
